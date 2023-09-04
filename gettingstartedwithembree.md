@@ -65,7 +65,8 @@ https://www.intel.com/content/www/us/en/docs/oneapi-rendering-toolkit/get-starte
 			3. mkdir rk_gsg
 			4. cd rk_gsg
 			5. ospStudio.exe
-			6. You should see an interactive rendering window. Go to File -> Demo Scene and load tutorial_scene. Review the selected scene. You can click and move around to rotate. Use arrow keys to move and rotate. WASD keys work to move too. 
+			6. You should see an interactive rendering window. Go to File -> Demo Scene and load tutorial_scene. Review the selected scene. You can click and move around to rotate. Use arrow keys to move and rotate. WASD keys work to move too.
+   			7. You may notice, if you keep loading new scenes through File -> Demo Scene, it will just overlay the new scene over the old one, a potentially computationally bad thing if we're doing something like Ray Tracing, lol. Click Edit-Clear scene before loading a new scene to start anew. You can set a Accumulation frame amount to limit CPU resources by going to View -> Renderer -> Limit accumulation. Set to something like 8 frames. 
 		2. Reference: https://www.intel.com/content/www/us/en/docs/oneapi-rendering-toolkit/get-started-guide-windows/2023-2/run-sample-with-intel-ospray-studio.html
 	4. Viewer.exe - I wanted to mention there's a embree_viewer.exe program in the \bin  directory (as well as the source code in the \src dir) which is a program that loads .OBJ files for Ray Tracing. Info on this is in the Embree Readme.pdf file, section 10.6. There, it also shows two example files that look really great with the viewer program.
 		1. Reference: https://raw.githubusercontent.com/embree/embree/master/readme.pdf
