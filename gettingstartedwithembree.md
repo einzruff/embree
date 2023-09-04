@@ -56,7 +56,7 @@ https://www.intel.com/content/www/us/en/docs/oneapi-rendering-toolkit/get-starte
 			3. mkdir rk_gsg
 			4. cd rk_gsg
 			5. embree_triangle_geometry.exe
-			6. You should see a triangle. You can click and move around to rotate. Use arrow keys to move and rotate. WASD keys work to move too. 
+			6. You should see a cube with a shadow reflected. You can click and move around to rotate. Use arrow keys to move and rotate. WASD keys work to move too. 
 		2. Reference: https://www.intel.com/content/www/us/en/docs/oneapi-rendering-toolkit/get-started-guide-windows/2023-2/run-a-sample-project-with-intel-embree.html
 	3. OSPRay Studio Showcase Application
 		1. OSPRay Studio has a bunch of examples to try out.
